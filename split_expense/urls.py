@@ -18,10 +18,11 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
 from django.urls import path
-from .views import get_expense_details
+from .views import get_expense_details, create_expense
 
 
 urlpatterns = [
     path('get-expense/<int:expense_id>/', get_expense_details, name='get_expense'),
+    path('create-expense', create_expense, name='create_expense'),
     # Define more URL patterns as needed
 ]
