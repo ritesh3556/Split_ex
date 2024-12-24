@@ -58,4 +58,4 @@ The API documentation can be found at `/api/docs/` after starting the server. It
 
 Contributions are welcome! Please fork the repository and submit a pull request with your changes. Be sure to follow the contribution guidelines and maintain code quality and test coverage.
 
-## License
+
